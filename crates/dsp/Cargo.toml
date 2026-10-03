@@ -1,0 +1,9 @@
+[package]
+name = "frekostasis-dsp"
+description = "DSP engine for Frekostasis FS-2: FK-2 FM hits, extreme spectral stretching, space echo and shimmer plate"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+frekussion-dsp = { path = "../fk2" }

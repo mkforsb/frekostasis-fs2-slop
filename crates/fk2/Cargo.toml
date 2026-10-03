@@ -1,0 +1,8 @@
+[package]
+name = "frekussion-dsp"
+description = "Vendored DSP of Frekussion FK-2 (the FM percussion synthesizer Frekostasis renders its hits with)"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]

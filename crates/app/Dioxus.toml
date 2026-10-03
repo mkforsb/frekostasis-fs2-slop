@@ -1,0 +1,8 @@
+[application]
+name = "frekostasis"
+
+[web.app]
+title = "Frekostasis FS-2 · Extreme-Stretch Drone Machine"
+
+[web.watcher]
+watch_path = ["src", "assets", "../dsp/src", "../fk2/src", "../worklet/src"]

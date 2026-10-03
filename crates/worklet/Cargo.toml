@@ -1,0 +1,12 @@
+[package]
+name = "frekostasis-worklet"
+description = "Frekostasis DSP compiled to a dependency-free wasm module for an AudioWorkletProcessor"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+frekostasis-dsp = { path = "../dsp" }
